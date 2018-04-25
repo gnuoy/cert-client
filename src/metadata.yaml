@@ -1,0 +1,12 @@
+name: cert-client
+summary: Charm to test vault cert relation
+maintainer: OpenStack Charmers <openstack-charmers@lists.ubuntu.com>
+description: Test vault cert relation
+tags:
+  - openstack
+series:
+  - xenial
+subordinate: false
+provides:
+  website:
+    interface: web
